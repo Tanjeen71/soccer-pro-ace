@@ -1,0 +1,48 @@
+/*--------------- 
+   Font Style
+--------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*--------------
+    main portion
+ ---------------- */
+ .top-portion{
+     background-color: navy;
+
+ }
+ .player{
+    display:flex;
+ }
+.field{
+    font-size: 36px;
+    color:rgb(173, 238, 214);
+    line-height: 50px; 
+     ;
+    padding-left: 150px; 
+    padding-right: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.field img{
+    width: 556.01px;
+    height: 438px;
+    left: 1299.01px;
+    top: 153px; 
+
+}
+.live{
+    background-color: orangered;
+    border-radius: 5px;
+    position: static;
+    width: 88px;
+    height: 24px;
+    left: 24px;
+    top: 10px;
+    color: whitesmoke;
+}
+.live:hover{
+    background-color: #E02C6D;
+    color: white;
+} 
+
