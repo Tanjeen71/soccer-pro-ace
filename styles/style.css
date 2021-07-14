@@ -3,12 +3,14 @@
 --------------- */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 /*--------------
     main portion
  ---------------- */
  .top-portion{
      background-color: navy;
+     width: 100%;
 
  }
  .player{
@@ -18,11 +20,10 @@ body{
     font-size: 36px;
     color:rgb(173, 238, 214);
     line-height: 50px; 
-     ;
-    padding-left: 150px; 
-    padding-right: 150px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-left: 100px; 
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .field img{
     width: 556.01px;
@@ -42,7 +43,38 @@ body{
     color: whitesmoke;
 }
 .live:hover{
-    background-color: #E02C6D;
+    background-color: black;
     color: white;
 } 
+/*-----------------------
+       next section
+ ------------------------ */
+.second-portion,.goal-post{
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    border: 5px;
+    padding-left:30px;
+    padding-right: 30px;
+    background-color: rgba(234, 228, 250, 0.397);
+    text-align: center;
+    
+}
+.goal{
+    background-color: white;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.goal img{
+    height:200px;
+    width:200px;
+    padding-top: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 5px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
 
