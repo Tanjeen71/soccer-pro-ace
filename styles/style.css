@@ -45,7 +45,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 10px 24px;
      
 }
 .live text{
@@ -68,8 +67,8 @@ line-height: 24px;
 }
 
 .live:hover{
-    background-color: black;
-    color: white;
+    background-color: rgb(42, 209, 70);
+    color: black;
 } 
 /*-----------------------
        next section
@@ -107,53 +106,82 @@ p{
  ----------------*/
  .penalty{
     display: flex;
-   
     align-items: flex-start;
-    padding: 0px;
-    
+    padding: 20px;
+    margin: 10px, 20px, 10px, 20px;
+    width:50%;
 
  }
 .free-kick{
-  flex-direction: row;
+    flex-direction: row;
     width: 50%;
+   margin-left: 50px;
 }
  
  h1{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
+    text-align: left;
     font-size: 48px;
     line-height: 60px;
     margin-top: 20px;
+    margin-left: 30px;
 
  }
  .free-kick img{
     position: absolute;
-    width: 567px;
-    height: 427px;
+    width: 360px;
+    height: 330px;
     left: 717px;
+    margin-top: 30px;
  }
-  
- 
+ p{
+ text-align: left;
+ }
+
 /*-------------------
      ending part
 ---------------------*/
-.soccer-logo{
-    position: absolute;
-    width: 483.87px;
-    height: 213px;
-    left: 475px;
-    top: 3474px;
-    
+.info{
 
-  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
     
 }
-.items{
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 20px 0px;
-
+/*---------------
+ logo Section
+ ---------------- */
+ #logo{
+     margin-left: 40%;
+     margin-top: 8%;
+ }
+/*-------------
+   social icon
+ --------------*/
+ .icon{
+     margin-left: 45%;
+     font-size: 20px;
+ }
+ .fab, .far, small{
+     margin-left: 8px;
+     align-items: center;
+     color: gray;
+ }
+ /*------------------
+   Media Queries
+----------------------*/
+/*-------------------
+    Mobile Device
+-----------------------*/
+@media only screen and(max-width:688px){
+    .grid{
+        width:100%;
+    }
+    .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .grid{
+        flex-direction: column;
+    }
 }
-
+    
