@@ -30,7 +30,10 @@ body{
     height: 438px;
     left: 1299.01px;
     top: 153px; 
-
+}
+.field:hover img{
+    transform: scale(1.2);
+    transition: transform 1s;
 }
 .live{
     background-color: orangered;
@@ -68,7 +71,7 @@ line-height: 24px;
     color: black;
 } 
 /*-----------------------
-       next section
+       Second section
  ------------------------ */
 .second-portion,.goal-post{
     grid-template-columns: repeat(3, 1fr);
@@ -87,8 +90,8 @@ line-height: 24px;
     border-radius: 5px;
 }
 .goal img{
-    height:300px;
-    width:300px;
+    height: 256px;
+    width:  256px;
     border-radius: 10px;
     margin-left: 15px;
     margin-right: 15px;
