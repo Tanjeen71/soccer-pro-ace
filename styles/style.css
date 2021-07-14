@@ -44,8 +44,6 @@ body{
     color: whitesmoke;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-     
 }
 .live text{
 position: static;
@@ -55,8 +53,7 @@ left: 24px;
 top: 10px;
 font-weight: 500;
 font-size: 16px;
-line-height: 24px;
-    
+line-height: 24px;    
 }
 .arrow{
     position: static;
