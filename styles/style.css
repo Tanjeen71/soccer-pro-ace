@@ -118,12 +118,9 @@ p{
    margin-left: 50px;
 }
  
- h1{
-    text-align: left;
+ .highlights{
+    color: #0A0826;
     font-size: 48px;
-    line-height: 60px;
-    margin-top: 20px;
-    margin-left: 30px;
 
  }
  .free-kick img{
