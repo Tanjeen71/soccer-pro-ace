@@ -36,12 +36,37 @@ body{
     background-color: orangered;
     border-radius: 5px;
     position: static;
-    width: 88px;
-    height: 24px;
-    left: 24px;
-    top: 10px;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 464px;
+    padding: 10px, 24px, 10px, 24px;
     color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 24px;
+     
 }
+.live text{
+position: static;
+width: 88px;
+height: 24px;
+left: 24px;
+top: 10px;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+    
+}
+.arrow{
+    position: static;
+    width: 24px;
+    height: 24px;
+    left: 120px;
+    top: 10px;
+}
+
 .live:hover{
     background-color: black;
     color: white;
@@ -66,15 +91,69 @@ body{
     border-radius: 5px;
 }
 .goal img{
-    height:200px;
-    width:200px;
-    padding-top: 20px;
-    padding-left: 2px;
-    padding-right: 2px;
-    border-radius: 5px;
+    height:300px;
+    width:300px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+}
+/*---------------
+  Middle portion 
+ ----------------*/
+ .penalty{
+    display: flex;
+   
+    align-items: flex-start;
+    padding: 0px;
+    
+
+ }
+.free-kick{
+  flex-direction: row;
+    width: 50%;
+}
+ 
+ h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    margin-top: 20px;
+
+ }
+ .free-kick img{
+    position: absolute;
+    width: 567px;
+    height: 427px;
+    left: 717px;
+ }
+  
+ 
+/*-------------------
+     ending part
+---------------------*/
+.soccer-logo{
+    position: absolute;
+    width: 483.87px;
+    height: 213px;
+    left: 475px;
+    top: 3474px;
+    
+
+  
+    
+}
+.items{
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 0px;
+
 }
 
